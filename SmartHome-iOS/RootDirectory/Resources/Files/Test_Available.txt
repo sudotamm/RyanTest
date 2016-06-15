@@ -1,0 +1,56 @@
+[
+	{
+		"address": "device_id_scocket10",
+		"name": "Socket10",
+		"status": "On",
+		"type": "Socket"
+	},
+	{
+		"address": "device_id_scocket11",
+		"name": "Socket11",
+		"status": "Off",
+		"type": "Socket"
+	},
+    {
+        "address": "device_id_scocket12",
+        "name": "Socket12",
+        "status": "Off",
+        "type": "Socket"
+    },
+    {
+		"address": "device_id_light10",
+		"name": "Light10",
+		"status": "On",
+		"type": "Light"
+	},
+	{
+		"address": "device_id_light11",
+		"name": "Light11",
+		"status": "Off",
+		"type": "Light"
+	},
+    {
+        "address": "device_id_light12",
+        "name": "Light12",
+        "status": "Off",
+        "type": "Light"
+    },
+    {
+		"address": "device_id_switch10",
+		"name": "Switch10",
+		"status": "On",
+		"type": "Switch"
+	},
+	{
+		"address": "device_id_switch11",
+		"name": "Switch11",
+		"status": "Off",
+		"type": "Switch"
+	},
+    {
+        "address": "device_id_switch12",
+        "name": "Switch12",
+        "status": "Off",
+        "type": "Switch"
+    }
+]

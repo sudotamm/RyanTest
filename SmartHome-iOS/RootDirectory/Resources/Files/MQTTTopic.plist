@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>topicType</key>
+		<string>1</string>
+		<key>topicName</key>
+		<string>_response</string>
+		<key>topicMessage</key>
+		<string>device added</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>2</string>
+		<key>topicName</key>
+		<string>_response</string>
+		<key>topicMessage</key>
+		<string>device removed</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>3</string>
+		<key>topicName</key>
+		<string>_response</string>
+		<key>topicMessage</key>
+		<string>status changed</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>4</string>
+		<key>topicName</key>
+		<string>_request</string>
+		<key>topicMessage</key>
+		<string>set status</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>5</string>
+		<key>topicName</key>
+		<string>_request</string>
+		<key>topicMessage</key>
+		<string>list device</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>6</string>
+		<key>topicName</key>
+		<string>_response</string>
+		<key>topicMessage</key>
+		<string>list device</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>7</string>
+		<key>topicName</key>
+		<string>_request/upload_config</string>
+		<key>topicMessage</key>
+		<string>upload config</string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>8</string>
+		<key>topicName</key>
+		<string>_request/request_config</string>
+		<key>topicMessage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>topicType</key>
+		<string>9</string>
+		<key>topicName</key>
+		<string>_response</string>
+		<key>topicMessage</key>
+		<string>upload config</string>
+	</dict>
+</array>
+</plist>

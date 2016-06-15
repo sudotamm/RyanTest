@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ETU-7N-UBz" customClass="NodataView">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nodata" translatesAutoresizingMaskIntoConstraints="NO" id="xMQ-F2-k1K">
+                    <rect key="frame" x="0.0" y="0.0" width="290" height="270"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请先添加" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdw-ey-FGy">
+                    <rect key="frame" x="113" y="175.5" width="64" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无房间信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcX-41-Hel">
+                    <rect key="frame" x="91" y="144" width="108" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fdw-ey-FGy" firstAttribute="top" secondItem="KcX-41-Hel" secondAttribute="bottom" constant="10" id="821-Xz-R3a"/>
+                <constraint firstItem="KcX-41-Hel" firstAttribute="centerY" secondItem="ETU-7N-UBz" secondAttribute="centerY" constant="20" id="GlZ-1e-4iV"/>
+                <constraint firstItem="Fdw-ey-FGy" firstAttribute="centerX" secondItem="ETU-7N-UBz" secondAttribute="centerX" id="PKp-sQ-l6O"/>
+                <constraint firstAttribute="trailing" secondItem="xMQ-F2-k1K" secondAttribute="trailing" id="PWa-Vr-6Fb"/>
+                <constraint firstItem="xMQ-F2-k1K" firstAttribute="leading" secondItem="ETU-7N-UBz" secondAttribute="leading" id="QWu-Gy-t4R"/>
+                <constraint firstItem="KcX-41-Hel" firstAttribute="centerX" secondItem="ETU-7N-UBz" secondAttribute="centerX" id="iYC-un-GYY"/>
+                <constraint firstItem="xMQ-F2-k1K" firstAttribute="top" secondItem="ETU-7N-UBz" secondAttribute="top" id="kL5-zi-rdc"/>
+                <constraint firstAttribute="bottom" secondItem="xMQ-F2-k1K" secondAttribute="bottom" id="l1w-LS-xTX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tipLabel" destination="Fdw-ey-FGy" id="48O-CP-XVD"/>
+                <outlet property="titleLabel" destination="KcX-41-Hel" id="wBh-tb-zty"/>
+            </connections>
+            <point key="canvasLocation" x="276" y="320"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_nodata" width="290" height="270"/>
+    </resources>
+</document>

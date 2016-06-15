@@ -1,0 +1,70 @@
+{
+"name": "我的房间",
+"rooms": [
+{
+"devices": [
+{
+"address": "device_id_scocket1",
+"name": "Socket1",
+"status": "On",
+"type": "Socket"
+},
+{
+"address": "device_id_scocket2",
+"name": "Socket2",
+"status": "Off",
+"type": "Socket"
+},
+{
+"address": "device_id_scocket3",
+"name": "Socket3",
+"status": "Off",
+"type": "Socket"
+},
+{
+"address": "device_id_light1",
+"name": "Light1",
+"status": "On",
+"type": "Light"
+},
+{
+"address": "device_id_light2",
+"name": "Light2",
+"status": "Off",
+"type": "Light"
+},
+{
+"address": "device_id_light3",
+"name": "Light3",
+"status": "Off",
+"type": "Light"
+},
+{
+"address": "device_id_switch1",
+"name": "Switch1",
+"status": "On",
+"type": "Switch"
+},
+{
+"address": "device_id_switch2",
+"name": "Switch2",
+"status": "Off",
+"type": "Switch"
+},
+{
+"address": "device_id_switch3",
+"name": "Switch3",
+"status": "",
+"type": "Switch"
+},
+{
+"address": "device_id_switch4",
+"name": "Switch4",
+"status": "",
+"type": "Switch"
+}
+],
+"name": "我的房间"
+}
+]
+}

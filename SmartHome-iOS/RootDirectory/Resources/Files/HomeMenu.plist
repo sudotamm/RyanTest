@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>icon_home_normal</string>
+		<key>imageHighlight</key>
+		<string>icon_home_pressed</string>
+		<key>name</key>
+		<string>主页</string>
+		<key>type</key>
+		<string>0</string>
+		<key>viewController</key>
+		<string>HomeViewController</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>icon_room_normal</string>
+		<key>imageHighlight</key>
+		<string>icon_room_pressed</string>
+		<key>name</key>
+		<string>我家</string>
+		<key>type</key>
+		<string>1</string>
+		<key>viewController</key>
+		<string>EntranceViewController</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>icon_setting_normal</string>
+		<key>imageHighlight</key>
+		<string>icon_setting_pressed</string>
+		<key>name</key>
+		<string>设置</string>
+		<key>type</key>
+		<string>2</string>
+		<key>viewController</key>
+		<string>SettingViewController</string>
+	</dict>
+</array>
+</plist>
